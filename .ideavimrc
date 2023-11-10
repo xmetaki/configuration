@@ -13,6 +13,7 @@ nmap tp :action ActivateProjectToolWindow<CR>
 nmap gh :action QuickJavaDoc<CR>
 nmap <leader>ch :action CallHierarchy<CR>
 nmap <leader>sw :action SurroundWith<CR>
+nmap <leader>nc :action NewClass<CR>
 set ignorecase
 set smartcase
 set incsearch
