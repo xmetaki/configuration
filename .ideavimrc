@@ -1,0 +1,23 @@
+let mapleader = " "
+imap jk <ESC>
+noremap s <NOP>
+noremap gh <NOP>
+
+nmap sv <C-w>v
+nmap sc <C-w>c
+nmap sh <C-w>s
+nmap <leader>e <C-w>w
+nmap <leader>h gT
+nmap <leader>l gt
+nmap tp :action ActivateProjectToolWindow<CR>
+
+set ignorecase
+set smartcase
+set incsearch
+
+map Q gq
+set easymotion
+map f <leader><leader>f
+
+" Alt+1 toggle project tree
+" Alt+f12 toggle terminal
