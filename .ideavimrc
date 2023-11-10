@@ -14,6 +14,8 @@ nmap tp :action ActivateProjectToolWindow<CR>
 set ignorecase
 set smartcase
 set incsearch
+set nu
+set relativenumber
 
 map Q gq
 set easymotion
