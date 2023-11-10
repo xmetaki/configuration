@@ -10,7 +10,9 @@ nmap <leader>e <C-w>w
 nmap <leader>h gT
 nmap <leader>l gt
 nmap tp :action ActivateProjectToolWindow<CR>
-
+nmap gh :action QuickJavaDoc<CR>
+nmap <leader>ch :action CallHierarchy<CR>
+nmap <leader>sw :action SurroundWith<CR>
 set ignorecase
 set smartcase
 set incsearch
